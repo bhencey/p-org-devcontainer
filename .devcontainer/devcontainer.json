@@ -9,13 +9,13 @@
 		"ghcr.io/devcontainers/features/dotnet:2": {},
 		"ghcr.io/devcontainers/features/java:1": {}
 	},
-	"runArgs": [
-  		"--userns=keep-id:uid=1000,gid=1000"
- 	],
- 	"containerUser": "vscode",
- 	"updateRemoteUserUID": true,
- 	"containerEnv": {
-   	"HOME": "/home/vscode"
+	// "runArgs": [
+  	// 	"--userns=keep-id:uid=1000,gid=1000"
+ 	// ],
+ 	// "containerUser": "vscode",
+ 	// "updateRemoteUserUID": true,
+ 	// "containerEnv": {
+   	// "HOME": "/home/vscode"
  	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
